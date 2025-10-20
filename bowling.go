@@ -15,7 +15,7 @@ func main() {
 	for round < 10 {
 		var points int
 		var prevpoints int
-		fmt.Println(strikeLast, " ", strikePreLast, " ", totalCount)
+		fmt.Println(totalCount)
 		fmt.Println("Сколько очков за первый бросок?")
 		fmt.Fscan(os.Stdin, &points)
 		totalCount += points
@@ -66,3 +66,4 @@ func main() {
 	println(totalCount)
 
 }
+
